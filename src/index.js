@@ -5,7 +5,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import Footer from './Footer';
-import ComponentePrueba from './ComponentePrueba';
+import Contenedor from './Contenedor'
 
 // ReactDOM.render( <
 //     React.StrictMode >
@@ -21,7 +21,7 @@ ReactDOM.render( <
     document.getElementById('header')
 );
 ReactDOM.render( <
-    ComponentePrueba nombre = "Sebastian"
+    Contenedor nombre = "Sebastian"
     edad = "18"
     genero = "M" / > ,
     document.getElementById('root')
