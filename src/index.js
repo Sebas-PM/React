@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import Footer from './Footer';
@@ -16,10 +16,10 @@ import Contenedor from './Contenedor'
 //     document.getElementById('root')
 // );
 
-ReactDOM.render( <
-    Header / > ,
-    document.getElementById('header')
-);
+// ReactDOM.render( <
+//     App / > ,
+//     document.getElementById('header')
+// );
 ReactDOM.render( <
     Contenedor nombre = "Sebastian"
     edad = "18"

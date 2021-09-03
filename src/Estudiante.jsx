@@ -2,13 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-const Estudiante = ({nombre,edad,genero}) => (
+const Estudiante = ({nombre,edad,genero,foto}) => (
     <>
        <div className="card d-flex justify-Content-center mt-5 m-auto text-primary" style={{ width: '250px'}}>
             <div className="card-body">
                 <h5 className="card-title">Nombre: {nombre}</h5>
                 <p className="card-text">Edad: {edad}</p>
                 <p className="card-text">Genero: {genero}</p>
+                <img src={foto} alt="" />
             </div>
         </div>
     </>
