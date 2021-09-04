@@ -16,10 +16,10 @@ import Contenedor from './Contenedor'
 //     document.getElementById('root')
 // );
 
-// ReactDOM.render( <
-//     App / > ,
-//     document.getElementById('header')
-// );
+ReactDOM.render( <
+    Header / > ,
+    document.getElementById('header')
+);
 ReactDOM.render( <
     Contenedor nombre = "Sebastian"
     edad = "18"
