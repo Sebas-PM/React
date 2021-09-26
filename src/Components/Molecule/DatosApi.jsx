@@ -43,7 +43,7 @@ class DatosApi extends Component {
                                     <center><h5 className="card-title">{u.nombre}</h5></center>
                                     <p className="card-text">Edad: {u.edad}</p>
                                     <p className="card-text">Genero: {u.genero}</p>
-                                    <img style={{ width: '250px' }} src={u.foto} alt="" />
+                                    <img style={{ width: '250px' }} src={u.foto} alt="imagne del ersonaje del increible mundo de gumball" />
                                 </div>
                             </div>
                         </>
